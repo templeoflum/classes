@@ -1,0 +1,296 @@
+<title>Ableton Live, Mapped</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Chivo+Mono:wght@400;500&display=swap">
+<style>
+/* Workbench spec v1. Shared layout copied from the MET∃OR exemplar; per project only --chip and --title-font. */
+:root{
+  --chip:#b4531a;
+  --title-font:"Barlow Semi Condensed","Arial Narrow",system-ui,sans-serif;
+  --ground:#f4f5f3;--plate:#ffffff;--rule:#d5dadb;--ink:#14191c;--dim:#5d6a71;
+  --works:#17803d;--change:#c2412d;--cut:#6b7479;--pending:#9a6a12;--focus:#2563b8;--scrim:rgba(0,0,0,.35);
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"Chivo Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --chip:#f08a4b;--ground:#0b0e10;--plate:#12171a;--rule:#26313a;--ink:#d9e1e4;--dim:#8d9aa1;
+  --works:#4ade80;--change:#ff7a66;--cut:#9aa5ab;--pending:#f0a94a;--focus:#5aa7e8;--scrim:rgba(0,0,0,.55);color-scheme:dark}}
+:root[data-theme="dark"]{
+  --chip:#f08a4b;--ground:#0b0e10;--plate:#12171a;--rule:#26313a;--ink:#d9e1e4;--dim:#8d9aa1;
+  --works:#4ade80;--change:#ff7a66;--cut:#9aa5ab;--pending:#f0a94a;--focus:#5aa7e8;--scrim:rgba(0,0,0,.55);color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+.wrap{max-width:1200px;margin:0 auto;padding:24px 16px 64px}
+button{font:inherit;color:inherit;cursor:pointer}
+a{color:var(--ink);text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+p,li,.line{max-width:66ch}
+
+.chip{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--chip);border:1px solid var(--chip);padding:2px 8px}
+h1{font-family:var(--title-font);font-weight:600;font-size:clamp(28px,5vw,40px);letter-spacing:.01em;margin:8px 0 12px}
+hr.hair{border:0;border-top:1px solid var(--rule);margin:0 0 16px}
+
+.strip{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:start}
+@media (max-width:860px){.strip{grid-template-columns:minmax(0,1fr)}}
+.pane{background:var(--plate);border:1px solid var(--rule);min-width:0;display:flex;flex-direction:column}
+.pane>h2,.pane>details>summary{font-family:var(--mono);font-weight:500;font-size:13px;letter-spacing:.06em;margin:0;padding:10px 14px;border-bottom:1px solid var(--rule)}
+.pane>details>summary{cursor:pointer;list-style:none}
+.pane>details>summary::-webkit-details-marker{display:none}
+.pane>details>summary::before{content:"▸ ";color:var(--dim)}.pane>details[open]>summary::before{content:"▾ "}
+.pane .body{max-height:340px;overflow-y:auto;overscroll-behavior:contain;min-width:0}
+.rows{list-style:none;margin:0;padding:0}
+.rows>li{padding:10px 14px;border-bottom:1px solid var(--rule);min-width:0;overflow-wrap:anywhere}
+.rows>li:last-child{border-bottom:0}
+.rows .when{display:block;font-family:var(--mono);font-size:12px;color:var(--dim)}
+.empty{padding:12px 14px;color:var(--dim);margin:0}
+
+.wrow{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.wrow .line{flex:1 1 220px;min-width:0}
+.acts{display:flex;flex-wrap:wrap;gap:6px}
+.acts button,.open{min-height:40px;padding:6px 12px;background:transparent;border:1px solid var(--rule);font-family:var(--mono);font-size:12.5px;white-space:nowrap}
+.acts button:hover,.open:hover{border-color:var(--dim)}
+.acts button:disabled{opacity:.45;cursor:not-allowed}
+.acts button[aria-pressed="true"].works{border-color:var(--works);background:color-mix(in srgb,var(--works) 16%,transparent)}
+.acts button[aria-pressed="true"].change{border-color:var(--change);background:color-mix(in srgb,var(--change) 16%,transparent)}
+.acts button[aria-pressed="true"].cut{border-color:var(--cut);background:color-mix(in srgb,var(--cut) 22%,transparent)}
+.saved{flex-basis:100%;font-family:var(--mono);font-size:11.5px;color:var(--dim);min-height:1.2em;margin:0}
+.saved.err{color:var(--change)}
+
+.mk{display:inline-flex;gap:4px;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.04em;padding:1px 6px;border:1px solid var(--rule);color:var(--dim);white-space:nowrap}
+.mk.works{color:var(--works);border-color:var(--works)}
+.mk.change{color:var(--change);border-color:var(--change)}
+.mk.cut{color:var(--cut);border-color:var(--cut)}
+.mk.none{border-style:dashed}
+
+details.row{margin-top:12px;background:var(--plate);border:1px solid var(--rule)}
+details.row>summary{cursor:pointer;list-style:none;padding:12px 14px;font-family:var(--mono);font-size:14px;display:flex;gap:10px;align-items:baseline}
+details.row>summary::-webkit-details-marker{display:none}
+details.row>summary::before{content:"▸";color:var(--dim)}details.row[open]>summary::before{content:"▾"}
+details.row>summary span{color:var(--dim);font-size:12.5px}
+.inrow{border-top:1px solid var(--rule);padding:12px 14px 16px;min-width:0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:10px;min-width:0}
+.tile{margin:0;background:var(--ground);border:1px solid var(--rule);display:flex;flex-direction:column;gap:8px;padding:10px 12px;min-width:0}
+.tile .nm{font-family:var(--mono);font-weight:500;font-size:13.5px}
+.tile .st{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--dim)}
+.tile .open{align-self:flex-start;min-height:36px;padding:4px 10px}
+table.hist{border-collapse:collapse;width:100%;font-size:13px}
+table.hist td{padding:6px 10px 6px 0;border-bottom:1px solid var(--rule);vertical-align:top;overflow-wrap:anywhere}
+table.hist td.d{font-family:var(--mono);font-size:12px;color:var(--dim);white-space:nowrap}
+.histwrap{max-height:420px;overflow-y:auto;overscroll-behavior:contain}
+.links{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px}
+
+/* side sheet, styled like the stack review page: slides over from the right, nothing below moves */
+.sheet-bg{position:fixed;inset:0;background:var(--scrim);opacity:0;pointer-events:none;transition:opacity .2s;z-index:9}
+.side{position:fixed;top:0;right:0;height:100%;width:min(520px,100%);background:var(--plate);border-left:1px solid var(--rule);transform:translateX(100%);transition:transform .25s ease;display:flex;flex-direction:column;z-index:10;visibility:hidden}
+.side-in{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:calc(16px + env(safe-area-inset-top,0px)) 18px calc(28px + env(safe-area-inset-bottom,0px))}
+body.sheet-open .sheet-bg{opacity:1;pointer-events:auto}
+body.sheet-open .side{transform:none;visibility:visible}
+.closebar{display:flex;justify-content:flex-end}
+.closebar button{min-height:40px;padding:6px 14px;background:transparent;border:1px solid var(--rule);font-family:var(--mono);font-size:13px}
+.sh h2{font-family:var(--mono);font-weight:500;font-size:17px;margin:6px 0 4px}
+.sh .meta{font-family:var(--mono);font-size:12px;color:var(--dim);margin:0 0 12px}
+.sect{border-top:1px solid var(--rule);margin-top:14px;padding-top:12px;min-width:0}
+.sect>.lab{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+.sh ol,.sh ul{padding-left:20px;margin:0;display:grid;gap:6px}
+.sh p{margin:0 0 8px}
+.yn{border-left:2px solid var(--dim);padding:4px 10px;margin:8px 0;font-size:14px}
+kbd{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);border-bottom-width:2px;padding:0 5px;background:var(--ground)}
+.go{display:inline-block;margin-top:4px;min-height:40px;padding:8px 14px;border:1px solid var(--ink);font-family:var(--mono);font-size:13px;text-decoration:none}
+.path{display:flex;gap:8px;align-items:center;min-width:0}
+.path code{flex:1;min-width:0;overflow-wrap:anywhere;font-family:var(--mono);font-size:12px}
+.copy{flex:none;background:none;border:1px solid var(--rule);font-family:var(--mono);font-size:11px;padding:3px 8px;min-height:30px}
+textarea{width:100%;min-height:96px;border:1px solid var(--rule);background:var(--ground);color:var(--ink);font:15px var(--sans);padding:10px}
+.send{margin-top:10px;min-height:40px;padding:8px 18px;border:1px solid var(--ink);background:var(--ink);color:var(--plate);font-family:var(--mono);font-size:13px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="chip">Ableton Live, Mapped · workbench</span>
+    <h1>Ableton Live, Mapped</h1>
+    <hr class="hair">
+  </header>
+
+  <div class="strip">
+    <section class="pane" aria-label="Waiting on you">
+      <details open><summary>Waiting on you · <span id="n">2</span></summary>
+        <div class="body"><ul class="rows" id="waiting"></ul></div>
+      </details>
+    </section>
+    <section class="pane" aria-labelledby="doing-h">
+      <h2 id="doing-h">Doing now</h2>
+      <div class="body"><p class="empty">Nothing running.</p></div>
+    </section>
+    <section class="pane" aria-labelledby="next-h">
+      <h2 id="next-h">Next</h2>
+      <div class="body"><ul class="rows">
+        <li>Her laptop: open the atlas, note two versions<span class="when">At her next lesson</span></li>
+        <li>Pick the practice route to build out<span class="when">After your two marks</span></li>
+        <li>Site update with the glossary fixes<span class="when">Held until you say</span></li>
+      </ul></div>
+    </section>
+  </div>
+
+  <details class="row" id="library">
+    <summary>Library <span>· 4 practice routes</span></summary>
+    <div class="inrow"><div class="tiles" id="tiles"></div></div>
+  </details>
+
+  <details class="row" id="records">
+    <summary>Records <span>· <span id="rec-n">3</span> marks</span></summary>
+    <div class="inrow">
+      <div class="histwrap"><table class="hist"><tbody id="hist"></tbody></table></div>
+      <div class="links">
+        <a href="https://templeoflum.github.io/ableton-atlas/" target="_blank" rel="noopener">The public atlas</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+<div class="sheet-bg" id="sheet-bg"></div>
+<aside class="side" id="side" aria-hidden="true" aria-labelledby="sheet-title">
+  <div class="side-in">
+    <div class="closebar"><button type="button" id="sheet-close">Close</button></div>
+    <div class="sh" id="sheet-body"></div>
+  </div>
+</aside>
+
+<script>
+(()=>{
+  // Items put up for his mark. Doc id in `marks` = item id.
+  const ITEMS=[
+    {id:'drill-v2',line:'Drill again: map, voice, Enter to go on',
+     sheet:`<h2 id="sheet-title">Drill again</h2>
+      <p class="meta">Practice probes · the browser drill, revised · your last word: “right concept, needs to connect on a few more levels visually, maybe audio, and next from the keyboard”</p>
+      <a class="go" href="practice/drill.html" target="_blank" rel="noopener">Open the drill ▸</a>
+      <div class="sect"><div class="lab">Steps</div><ol>
+        <li>Click Press keys, press <kbd>Tab</kbd>, then a wrong key, then <kbd>Enter</kbd>.</li>
+        <li>Turn Spoken cues on and try two more actions.</li></ol></div>
+      <div class="sect"><div class="lab">You should see</div>
+        <p>A labelled map of Live that changes when you press the right key. Enter goes to the next action. Spoken cues, if on, say the action.</p></div>`},
+    {id:'set-v2',line:'Practice Set: steps now read as full clip names',
+     sheet:`<h2 id="sheet-title">Practice Set</h2>
+      <p class="meta">Practice probes · the generated Live Set, fixed · your last word: “opened clean, failed as exercise, you can not read the scene names, they are immediately cut off”</p>
+      <div class="sect"><div class="lab">Open in Live</div>
+        <div class="path"><code id="set-path">~/work/classes/music production/ableton-atlas/live-atlas/practice/navigation-exercise-1.als</code><button type="button" class="copy" data-copy="set-path">Copy</button></div></div>
+      <div class="sect"><div class="lab">Steps</div><ol>
+        <li>Save or close any old practice Set, then open this one.</li>
+        <li>In Session View, read the 8 clip names top to bottom.</li>
+        <li>Press <kbd>Tab</kbd> and read the locators along the top.</li></ol></div>
+      <div class="sect"><div class="lab">You should see</div>
+        <p>Every step reads in full, for example “6 Show the Browser”, and nothing is cut off.</p></div>`}
+  ];
+  // The three tried routes plus the one not tried. Read-only: the library never asks.
+  const ROUTES=[
+    {nm:'Browser drill',mark:'change',st:'Revised, waiting on your mark',
+     body:`<p>An atlas page names an action and listens for its keys. It sees key presses in its own window only, nothing in Live.</p>
+      <div class="yn">14 Oct, your mark Change: “right concept, but it needs to connect on a few more levels visually and maybe even with some audio … a way to go to the next one from the keyboard”.</div>
+      <p>Revised since: a labelled map, optional spoken cues, Enter goes on. Needs only a browser; the atlas already runs on Safari 13.1.</p>`},
+    {nm:'Generated Live Set',mark:'change',st:'Fixed, waiting on your mark',
+     body:`<p>A Live Set made from the atlas’s shortcut table: each step is a clip name, its keys in the scene name. It senses nothing; you watch.</p>
+      <div class="yn">14 Oct, your mark Change: “opened clean, failed as exercise, you can not read the scene names”.</div>
+      <p>Fixed since: steps moved to clip names in a wider track, with a length guard. Any edition. Must be saved in her Live version or older.</p>`},
+    {nm:'Max for Live watcher',mark:'works',st:'Works',
+     body:`<p>A device shows a cue and notices when the view or selected track changes. It can’t tell which key caused the change.</p>
+      <div class="yn">14 Oct, your mark Works.</div>
+      <p>Needs Suite, or Standard with the Max for Live add-on.</p>`},
+    {nm:'Extensions',mark:null,st:'Not tried',
+     body:`<p>Started from a right-click menu; it reads the Set while it runs, then stops. Nobody has shown it watching moves continuously.</p>
+      <p>Live 12 Suite 12.4.5 or later, in Ableton’s beta. It doesn’t run on Catalina, so not on her laptop. A beta sign-up is your call.</p>`}
+  ];
+  const HISTORY=[
+    {d:'14 Oct',what:'Browser drill, first version',mark:'change'},
+    {d:'14 Oct',what:'Generated Live Set, first version',mark:'change'},
+    {d:'14 Oct',what:'Max for Live watcher',mark:'works'}
+  ];
+  const LABEL={works:'Works',change:'Change',cut:'Cut'};
+  const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const mk=m=>m?`<span class="mk ${m}">${LABEL[m]}</span>`:'<span class="mk none">No mark</span>';
+
+  let db=null,me=null;const marks={};
+  const side=document.getElementById('side'),body=document.getElementById('sheet-body');
+  let lastFocus=null;
+  function openSheet(html){
+    lastFocus=document.activeElement;body.innerHTML=html;
+    document.body.classList.add('sheet-open');side.setAttribute('aria-hidden','false');
+    document.getElementById('sheet-close').focus({preventScroll:true});
+    body.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{
+      const t=document.getElementById(b.dataset.copy).textContent;
+      Promise.resolve().then(()=>navigator.clipboard.writeText(t)).then(()=>{b.textContent='Copied';},()=>{
+        const r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.copy));const s=getSelection();s.removeAllRanges();s.addRange(r);});
+    });
+  }
+  function closeSheet(){
+    document.body.classList.remove('sheet-open');side.setAttribute('aria-hidden','true');
+    lastFocus?.focus?.({preventScroll:true});
+  }
+  document.getElementById('sheet-close').onclick=closeSheet;
+  document.getElementById('sheet-bg').onclick=closeSheet;
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.body.classList.contains('sheet-open'))closeSheet();});
+
+  async function save(id,mark,note){
+    const st=document.getElementById('st-'+id);
+    if(!db){st.textContent='Not saved: say it in the OM tab instead.';st.className='saved err';return;}
+    st.textContent='Saving…';st.className='saved';
+    try{await db.doc('marks/'+id).set({mark,note:note||'',at:new Date().toISOString(),by:me});st.textContent='Saved: '+LABEL[mark];}
+    catch(e){st.textContent='Not saved: say it in the OM tab instead.';st.className='saved err';}
+  }
+  function askNote(item,mark){
+    openSheet(`<h2 id="sheet-title">${LABEL[mark]}: ${esc(item.line)}</h2>
+      <p class="meta">A note is optional.</p>
+      <label for="note-text" class="meta">What should change?</label>
+      <textarea id="note-text"></textarea>
+      <button type="button" class="send" id="note-send">Send ${LABEL[mark]}</button>`);
+    const t=document.getElementById('note-text');t.value=marks[item.id]?.mark===mark?(marks[item.id].note||''):'';
+    document.getElementById('note-send').onclick=()=>{closeSheet();save(item.id,mark,t.value.trim());};
+  }
+  function renderWaiting(){
+    const ul=document.getElementById('waiting');ul.innerHTML='';
+    let n=0;
+    for(const it of ITEMS){
+      const m=marks[it.id]?.mark;if(!m)n++;
+      const li=document.createElement('li');li.className='wrow';
+      li.innerHTML=`<span class="line">${esc(it.line)}</span>
+        <span class="acts" role="group" aria-label="${esc(it.line)}">
+          <button type="button" class="works" aria-pressed="${m==='works'}">Works</button>
+          <button type="button" class="change" aria-pressed="${m==='change'}">Change</button>
+          <button type="button" class="cut" aria-pressed="${m==='cut'}">Cut</button>
+          <button type="button" class="open">Open ▸</button></span>
+        <p class="saved" id="st-${it.id}" aria-live="polite">${m?'Marked: '+LABEL[m]:''}</p>`;
+      const [w,c,x,o]=li.querySelectorAll('button');
+      w.onclick=()=>save(it.id,'works','');c.onclick=()=>askNote(it,'change');x.onclick=()=>askNote(it,'cut');
+      o.onclick=()=>openSheet(it.sheet);
+      ul.append(li);
+    }
+    document.getElementById('n').textContent=n;
+    if(!ITEMS.length)ul.innerHTML='<li class="empty">Nothing waiting on you.</li>';
+  }
+  function renderLibrary(){
+    const g=document.getElementById('tiles');
+    ROUTES.forEach(r=>{
+      const f=document.createElement('figure');f.className='tile';
+      f.innerHTML=`<span class="nm">${esc(r.nm)}</span><span class="st">${mk(r.mark)} ${esc(r.st)}</span><button type="button" class="open">Open ▸</button>`;
+      f.querySelector('button').onclick=()=>openSheet(`<h2 id="sheet-title">${esc(r.nm)}</h2><p class="meta">Practice route · ${esc(r.st)}</p>${r.body}`);
+      g.append(f);
+    });
+  }
+  function renderRecords(){
+    const rows=[...HISTORY];
+    for(const it of ITEMS){const m=marks[it.id];if(m?.mark)rows.push({d:String(m.at||'').slice(0,10),what:it.line,mark:m.mark,note:m.note});}
+    document.getElementById('hist').innerHTML=rows.map(r=>`<tr><td class="d">${esc(r.d)}</td><td>${esc(r.what)}${r.note?' · '+esc(r.note):''}</td><td>${mk(r.mark)}</td></tr>`).join('');
+    document.getElementById('rec-n').textContent=rows.length;
+  }
+  renderWaiting();renderLibrary();renderRecords();
+
+  (async()=>{
+    try{
+      const [d,u]=await Promise.all([window.claude?.use?.('db'),window.claude?.use?.('user')]);
+      if(!d)return;db=d;me=u?(await u.id()):null;
+      db.collection('marks').onSnapshot(s=>{
+        for(const doc of s.docs){const v=doc.data()||{};marks[doc.id]={...v,mark:v.mark??(v.verdict==='rejected'?'cut':v.verdict)};}
+        renderWaiting();renderRecords();
+      },()=>{});
+    }catch(e){}
+  })();
+})();
+</script>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Production Atlas · Build board</title>
+  <meta name="description" content="Local project board for the Production Atlas.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2326362b'/%3E%3Cpath d='M7 23V9h7v14m4 0V9h7v14' fill='none' stroke='%23b6dba5' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="board.css">
+</head>
+<body>
+<main>
+  <header><div><span class="eyebrow">PROJECT BOARD</span><h1>Production Atlas</h1></div><span class="local">On this computer</span></header>
+  <section class="current" aria-labelledby="current-title">
+    <div class="current-top"><span id="phase">Loading status</span><span id="owner">Codex</span></div>
+    <h2 id="current-title">Checking the work record…</h2><p id="detail"></p>
+    <a class="open" href="sketch.html" id="open-sketch" hidden>Open the map sketch <span aria-hidden="true">↗</span></a>
+    <p id="freshness" class="freshness" role="status"></p>
+  </section>
+  <section class="next"><span class="eyebrow">NEXT</span><p id="next">Checking…</p></section>
+  <div class="columns">
+    <section><h2>In place</h2><div class="tile">Source research <span>Review recorded</span></div><div class="tile">Teaching direction <span>Agreed</span></div><div class="tile">Opening + return <span>Blueprint drafted</span></div></section>
+    <section><h2>Parked</h2><div class="tile quiet">Demo Sets <span>Briefs only</span></div><div class="tile quiet">Note sharing <span>Method undecided</span></div><div class="tile quiet">Publication <span>After testing + approval</span></div></section>
+  </div>
+  <footer>No decision is blocking the current work.<br><span>Status is updated by me; the page checks for changes.</span></footer>
+</main>
+<script src="board.js"></script>
+</body>
+</html>

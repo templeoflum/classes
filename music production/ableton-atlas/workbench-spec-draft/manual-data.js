@@ -1,0 +1,1 @@
+../live-atlas/manual-data.js

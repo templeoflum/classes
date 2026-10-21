@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Production Atlas</title>
+<meta name="description" content="An explorable production atlas: studio, actions, devices, sound, approaches, and lineages.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171310'/%3E%3Cpath d='M7 24V8l9 7 9-7v16' fill='none' stroke='%23d0b67b' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="sketch.css">
+</head>
+<body>
+<header class="masthead">
+  <a href="index.html" class="brand" aria-label="Production Atlas build board"><span class="brand-mark" aria-hidden="true">∿</span><span>PRODUCTION<br><b>ATLAS</b></span></a>
+  <nav aria-label="Atlas viewpoints"><button data-view="studio" aria-pressed="true">Studio</button><button data-view="actions" aria-pressed="false">Actions</button><button data-view="devices" aria-pressed="false">Devices</button><button data-view="sound" aria-pressed="false">Sound &amp; form</button><button data-view="approaches" aria-pressed="false">Approaches</button><button data-view="lineages" aria-pressed="false">Lineages</button></nav>
+  <button class="flags" id="flags" aria-label="View bookmarks"><span aria-hidden="true">⚑</span> <span id="flag-count">0</span></button>
+</header>
+<main>
+  <div class="atlas-tools"><label class="search-label" for="atlas-search"><span aria-hidden="true">⌕</span><input id="atlas-search" type="search" aria-label="Search Atlas" placeholder="Search" autocomplete="off" aria-controls="search-results"></label></div>
+  <section id="search-panel" hidden aria-label="Atlas search results"><div class="search-heading"><span id="search-count" role="status"></span><button class="text-button" id="search-close">Close search</button></div><div id="search-results"></div></section>
+  <section class="introduction">
+    <h1 id="title">Gesture &amp; <em>instrument.</em></h1>
+  </section>
+  <div class="exploration">
+    <section class="field" aria-label="Explore connected musical ideas">
+      <div class="field-head"><button class="text-button" id="back" disabled>← Back</button></div>
+      <div id="scale-controls" class="view-controls" hidden aria-label="Musical scale"><button data-view="sound" aria-pressed="false">One sound</button><span aria-hidden="true">—</span><button data-view="time" aria-pressed="false">A phrase</button></div>
+      <div id="action-controls" class="view-controls" hidden><span>LIVE 12</span><label for="key-platform">Keys</label><select id="key-platform"><option value="mac">Mac</option><option value="win">Windows</option></select></div>
+      <div class="study studio-study" id="studio-study" aria-label="Gesture connects to a voice and can be kept as a performance">
+        <svg viewBox="0 0 800 380" preserveAspectRatio="none" class="drawing" aria-hidden="true">
+          <path class="connection" d="M150 145H405Q500 145 650 145"/>
+          <path class="connection dashed" d="M150 145V302H408"/>
+          <text class="edge-label" x="276" y="133" text-anchor="middle">MIDI</text>
+          <text class="edge-label" x="530" y="133" text-anchor="middle">AUDIO</text>
+          <text class="edge-label" x="282" y="286" text-anchor="middle">CAPTURE</text>
+          <g class="performance">
+            <path d="M95 108h28m12-18h36m10 33h25m9-20h36"/>
+            <path d="M338 98c7-35 14 70 21 0s14 35 21 0 14-35 21 0 14 35 21 0 14-35 21 0"/>
+            <path d="M593 106c28-45 50 45 78 0"/>
+          </g>
+          <circle cx="150" cy="145" r="5"/><circle cx="405" cy="145" r="5"/><circle cx="650" cy="145" r="5"/><circle cx="408" cy="302" r="5"/>
+        </svg>
+        <button class="point s-gesture" data-id="gesture"><span class="point-title">Gesture</span><small>Notes · timing · velocity</small><span class="point-flag" hidden>⚑</span></button>
+        <button class="point s-voice" data-id="voice"><span class="point-title">Instrument</span><small>Source · response</small><span class="point-flag" hidden>⚑</span></button>
+        <button class="point s-listen" data-id="listen"><span class="point-title">Listening</span><small>Audio output</small><span class="point-flag" hidden>⚑</span></button>
+        <button class="point s-memory" data-id="memory"><span class="point-title">Recording</span><small>MIDI capture</small><span class="point-flag" hidden>⚑</span></button>
+      </div>
+      <div class="study sound-study" id="sound-study" hidden aria-label="The beginning, body, and ending of a sound across time">
+        <svg viewBox="0 0 800 380" preserveAspectRatio="none" class="drawing" aria-hidden="true">
+          <path class="axis" d="M55 305H752M55 305V45"/>
+          <path class="envelope-fill" d="M55 305C110 305 120 65 230 83C280 90 305 156 345 156H500C568 157 580 258 744 305Z"/>
+          <path class="envelope" d="M55 305C110 305 120 65 230 83C280 90 305 156 345 156H500C568 157 580 258 744 305"/>
+          <path class="connection dashed" d="M500 105V315"/>
+          <text x="58" y="34">LEVEL</text><text x="692" y="336">TIME →</text><text x="487" y="353" text-anchor="middle">KEY RELEASED</text>
+        </svg>
+        <button class="point a-arrival" data-id="arrival"><span class="point-title">Onset</span><small>Beginning</small><span class="point-flag" hidden>⚑</span></button>
+        <button class="point a-body" data-id="body"><span class="point-title">Held sound</span><small>Duration</small><span class="point-flag" hidden>⚑</span></button>
+        <button class="point a-after" data-id="after"><span class="point-title">Release &amp; tail</span><small>Ending</small><span class="point-flag" hidden>⚑</span></button>
+      </div>
+      <div class="study time-study" id="time-study" hidden aria-label="An illustrative phrase returns unchanged, changes its ending, or leaves a pause">
+        <svg viewBox="0 0 800 380" preserveAspectRatio="none" class="drawing" aria-hidden="true">
+          <g transform="translate(20 0) scale(.55 1)">
+          <path class="axis" d="M75 80H740M75 190H740M75 300H740"/>
+          <g class="phrase-notes"><path d="M100 73h45m15-18h65m15 27h36m14-20h46m36 11h45m15-18h65m15 27h36m14-20h46m36 11h45m15-18h65"/>
+          <path d="M100 183h45m15-18h65m15 27h36m14-20h46m36 11h45m15-18h65m15 27h36"/></g>
+          <path class="changed-notes" d="M557 156h55m18 28h63"/>
+          <path class="phrase-notes" d="M100 293h45m15-18h65m15 27h36m230-8h60m16-22h46m14 16h50"/>
+          <path class="pause" d="M330 287H462"/>
+          </g>
+        </svg>
+        <button class="point t-return" data-id="return"><span class="point-title">Repeat</span><small>Returning material</small><span class="point-flag" hidden>⚑</span></button>
+        <button class="point t-variation" data-id="variation"><span class="point-title">Variation</span><small>Related versions</small><span class="point-flag" hidden>⚑</span></button>
+        <button class="point t-space" data-id="space"><span class="point-title">Space</span><small>Between events</small><span class="point-flag" hidden>⚑</span></button>
+      </div>
+      <div id="actions-study" class="action-study" hidden aria-label="Actions and keyboard movements"></div>
+      <div id="devices-study" class="device-study" hidden aria-label="Device families and signal types"></div>
+      <div id="approaches-study" class="approach-study" hidden aria-label="Production materials and approaches">
+        <div class="approach-path">
+          <div class="approach-origin"><button class="map-name" data-id="headlock">Headlock</button><button class="small-link" data-id="imogen" data-target-view="lineages">Imogen Heap ↗</button></div>
+          <div class="method-rail"><button data-id="headlock-layers" class="method-place">Voice &amp; double bass<small>Recorded parts</small></button><span class="method-line" aria-hidden="true"></span><button data-id="headlock-layers" class="method-place right-place">Programming<small>Imogen Heap</small></button></div>
+          <div class="study-routes"><span>In Live</span><button data-id="memory">Recording ↗</button><button data-id="voice">Instruments ↗</button><button data-id="utility">Level ↗</button></div>
+        </div>
+        <div class="approach-path">
+          <div class="approach-origin"><button class="map-name" data-id="lost-weekend">Lost Weekend</button><button class="small-link" data-id="phoebe" data-target-view="lineages">Phoebe Bridgers ↗</button></div>
+          <div class="method-rail"><button data-id="lost-layers" class="method-place">Organ &amp; voice<small>Recorded parts</small></button><span class="method-line rose" aria-hidden="true"></span><button data-id="lost-layers" class="method-place right-place">Synths &amp; drums<small>Synthesis · drum programming</small></button></div>
+          <button class="sample-branch" data-id="lansky-work" data-target-view="lineages"><span>sample</span>Notjustmoreidlechatter <small>Paul Lansky ↗</small></button>
+          <div class="study-routes"><span>In Live</span><button data-id="sample-study">Sampling ↗</button><button data-id="operator">Synthesis ↗</button><button data-id="utility">Level &amp; stereo ↗</button></div>
+        </div>
+        <div class="approach-path">
+          <div class="approach-origin"><button class="map-name" data-id="perform-clips">Performing with clips</button><button class="small-link" data-id="live-origin" data-target-view="lineages">Ableton Live ↗</button></div>
+          <div class="method-rail"><button data-id="session-view" data-target-view="approaches" class="method-place">Session View<small>Order &amp; combinations</small></button><span class="method-line" aria-hidden="true"></span><button data-id="warp" data-target-view="approaches" class="method-place right-place">Warp<small>Shared tempo</small></button></div>
+          <div class="study-routes"><span>In Live</span><button data-id="toggle-views">Tab ↗</button><button data-id="record">Arrangement recording ↗</button></div>
+        </div>
+      </div>
+      <div id="lineages-study" class="network-study" hidden aria-label="Collaboration and development networks">
+        <div class="network-group">
+          <div class="network-caption">HEADLOCK <span>Speak for Yourself · 2005</span></div>
+          <div class="earlier-work"><button data-id="frou-frou">Frou Frou · 2002</button><span>earlier collaboration ↓</span></div>
+          <div class="record-network"><button class="network-person" data-id="imogen">Imogen Heap<small>Writing · production · programming</small></button><span class="record-edge" aria-hidden="true">→</span><button class="network-work" data-id="headlock" data-target-view="lineages">Headlock</button></div>
+          <div class="credit-branches two-credits"><button data-id="mich-gerber">Mich Gerber<small>Double bass</small></button><button data-id="richie-mills">Richie Mills<small>Backing vocals</small></button></div>
+        </div>
+        <div class="network-group">
+          <div class="network-caption">LOST WEEKEND <span>Title track · 2026</span></div>
+          <div class="record-network"><button class="network-person" data-id="phoebe">Phoebe Bridgers<small>Artist · co-producer</small></button><span class="record-edge" aria-hidden="true">→</span><button class="network-work" data-id="lost-weekend" data-target-view="lineages">Lost Weekend</button></div>
+          <div class="producer-branches"><span>Co-production</span><button data-id="berg-gruska">Tony Berg &amp; Ethan Gruska</button><button data-id="antonoff-alex">Jack Antonoff &amp; Alex G</button></div>
+          <div class="sample-lineage"><button data-id="lansky">Paul Lansky<small>1988 · Notjustmoreidlechatter</small></button><span>sample →</span><button data-id="lost-weekend" data-target-view="lineages">Lost Weekend</button></div>
+        </div>
+        <div class="network-group">
+          <div class="network-caption">ABLETON LIVE <span>Performance → software</span></div>
+          <div class="record-network"><button class="network-person" data-id="monolake">Monolake<small>Gerhard Behles &amp; Robert Henke</small></button><span class="record-edge" aria-hidden="true">→</span><button class="network-work" data-id="live-origin">Live<small>2001</small></button></div>
+          <div class="credit-branches live-branches"><button data-id="ableton-team">Early team<small>Behles · Roggendorf · Bohl · Henke</small></button><button data-id="session-view" data-target-view="lineages">Session View<small>Launch &amp; combine</small></button><button data-id="warp" data-target-view="lineages">Warp<small>Time-stretched audio</small></button></div>
+        </div>
+      </div>
+      <div class="field-foot" id="field-foot"><button class="text-button" id="sound-help">No sound?</button></div>
+    </section>
+    <aside class="inspector" id="inspector" aria-label="Selected idea" aria-live="polite">
+      <div class="inspector-top"><button class="save" id="save" aria-pressed="false">⚑ Mark</button></div>
+      <h2 id="entry-title"></h2>
+      <div id="key-detail" hidden><kbd id="entry-keys"></kbd><p id="key-context"></p></div>
+      <div id="device-detail" hidden><span id="device-signal"></span><p id="device-controls"></p></div>
+      <section id="connections" aria-label="Connections from the selected place"><div class="entry-links" id="entry-links"></div></section>
+      <details id="about"><summary><span id="about-label">Details</span><span aria-hidden="true">+</span></summary><p id="entry-copy"></p></details>
+      <details id="depth"><summary><span id="depth-label">In Live</span><span aria-hidden="true">+</span></summary><p id="in-live"></p></details>
+      <details id="sources" hidden><summary>Sources <span aria-hidden="true">+</span></summary><div id="source-links"></div><p id="source-limit"></p></details>
+      <div id="flag-list" hidden></div>
+    </aside>
+  </div>
+  <footer><button class="text-button" id="lesson">Notes</button><details id="edition-note"><summary>About</summary><div><p>Local preview: 12 shortcuts, 8 devices, 2 song references, and Live’s origins. No audio or downloads.</p><p>Song entries draw on credits and written accounts. A time-coded listening breakdown is still to come; Live studies are not original session reconstructions.</p><p>Notes are examples. Bookmarks clear on reload. Live operations have not been tested on the learner’s setup.</p><a href="index.html">Build board ↗</a></div></details></footer>
+</main>
+<script src="sketch.js"></script>
+</body>
+</html>

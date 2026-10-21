@@ -1,0 +1,1 @@
+../live-atlas/shortcut-explorer.js
