@@ -22,7 +22,7 @@ guard candidates.count == 1, let window = candidates.first,
       let id = window[kCGWindowNumber as String] as? Int else {
     fatalError("Expected exactly one matching Live window; inspect the UI before capturing.")
 }
-let output = "/Users/donovan/work/classes/music production/ableton-atlas/live-atlas/assets/native/" + args[2] + ".png"
+let output = "/Users/donovan/work/learning/classes/music production/ableton-atlas/live-atlas/assets/native/" + args[2] + ".png"
 guard !FileManager.default.fileExists(atPath: output) else { fatalError("Output already exists; no overwrite.") }
 print("Capturing Live \(args[1]) window \(id) → \(args[2]).png")
 let process = Process()

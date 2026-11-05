@@ -8,7 +8,7 @@ Draft 1.0 · September 20, 2026 · Atlas frame proposal and software-fluency emp
 
 The lesson is the complete core experience. The student should be able to return without having opened any provided material; everything needed to continue is re-established together.
 
-Start with the [Atlas content outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>). Companion documents: [Curriculum and examples](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md>) · [Private source review](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) · [Review coverage](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_CATALOG.md>).
+Start with the [Atlas content outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>). Companion documents: [Curriculum and examples](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md>) · [Private source review](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) · [Review coverage](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_CATALOG.md>).
 
 The source-grounded design from draft 0.3 remains, but this revision corrects its assumed usage: notes are primarily written by the teacher during lessons, not maintained by the student between them. The Atlas and student additions are optional extensions. Thirty minutes is the confirmed lesson length, not a provisional hour. Research coverage and remaining gaps remain explicit in the companion documents.
 
@@ -127,7 +127,7 @@ The teacher carries continuity whether or not the student uses the notes. The At
 
 ## 5. Atlas organization
 
-The [content outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) is the current organizational proposal: **Studio** maps the working system; **Actions** maps operations and shortcuts; **Devices** maps mechanisms, controls, and uses; **Sound & Form** maps musical relationships at different scales; **Approaches** maps aims, choices, and tradeoffs; **Lineages** maps documented human and technical histories. This supersedes the earlier six-territory distribution. The fourteen-area inventory checks subject coverage underneath; shortcut/device catalogs extend beyond the existing concept IDs.
+The [content outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) is the current organizational proposal: **Studio** maps the working system; **Actions** maps operations and shortcuts; **Devices** maps mechanisms, controls, and uses; **Sound & Form** maps musical relationships at different scales; **Approaches** maps aims, choices, and tradeoffs; **Lineages** maps documented human and technical histories. This supersedes the earlier six-territory distribution. The fourteen-area inventory checks subject coverage underneath; shortcut/device catalogs extend beyond the existing concept IDs.
 
 These are different views of shared entries, not levels. A concept has one stable identity and can appear in several meaningful contexts without duplicating its explanation. Studio's practical relationships survive; Sound and Phrase become different scales within Sound & Form. No obligation to preserve the old three tabs or duplicate content into persona courses.
 
@@ -218,7 +218,7 @@ Keep music in Live and the student's own files. Notes may point to a recognizabl
 
 ### First opening: enter where Live is
 
-Start at the learner's actual situation: play and hear, recover a missing sound, or enter through an existing musical idea. A small nearby map connects playing, keeping an idea, and changing a sound's response. None must be completed in order. The Atlas does not detect or control Live. The [first-opening blueprint](</Users/donovan/work/classes/music production/ableton-atlas/FIRST_OPENING_BLUEPRINT.md>) defines this behavior and an honest setup-only stopping point.
+Start at the learner's actual situation: play and hear, recover a missing sound, or enter through an existing musical idea. A small nearby map connects playing, keeping an idea, and changing a sound's response. None must be completed in order. The Atlas does not detect or control Live. The [first-opening blueprint](</Users/donovan/work/learning/classes/music production/ableton-atlas/FIRST_OPENING_BLUEPRINT.md>) defines this behavior and an honest setup-only stopping point.
 
 ### During the lesson: the default workflow
 
@@ -254,7 +254,7 @@ The proposed first encounter is to play a responsive sound, capture a short idea
 
 Arrangement is a reasonable starting proposal for recording a continuous performance. Session can come first if launching and combining phrases better matches her immediate interest. Explain both as uses of one Set when the distinction becomes relevant; neither is reserved for a particular kind of musician.
 
-The [curriculum](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md>) supplies ten reusable encounters, detailed first-session outlines, and five sample Atlas entries. They are planning resources for the teacher, not a learner-facing required path. Timing and order adapt to the student.
+The [curriculum](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md>) supplies ten reusable encounters, detailed first-session outlines, and five sample Atlas entries. They are planning resources for the teacher, not a learner-facing required path. Timing and order adapt to the student.
 
 Aim for a small, complete creative experience early: play, keep, hear a possible change, choose, and find the result again. This is not a mandatory sequence inside every lesson. The point is that musical agency begins before interface fluency is complete.
 
@@ -317,11 +317,11 @@ Important editorial safeguards:
 - Check the state and routing behind device claims; a sidechain connection alone does not specify whether something opens, closes, or ducks.
 - Separate a sound's source, playback behavior, processing, and musical role without making that distinction a prerequisite to experimentation.
 
-The [source review](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) identifies specific historical explanations requiring correction, with current Ableton references. New content receives its own technical check even where a source sounds authoritative.
+The [source review](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) identifies specific historical explanations requiring correction, with current Ableton references. New content receives its own technical check even where a source sounds authoritative.
 
 ## 13. Proposed companion MVP
 
-This describes the intended first product beyond the initial [local interaction sketch](</Users/donovan/work/classes/music production/ableton-atlas/workbench/README.md>). The sketch now tests one neighborhood, recovery, and a fictional return note; it is not a student-ready companion or real note system. Custom software is not necessary to deliver the lessons.
+This describes the intended first product beyond the initial [local interaction sketch](</Users/donovan/work/learning/classes/music production/ableton-atlas/workbench/README.md>). The sketch now tests one neighborhood, recovery, and a fictional return note; it is not a student-ready companion or real note system. Custom software is not necessary to deliver the lessons.
 
 ### In scope
 
@@ -375,7 +375,7 @@ These are conceptual records, not a requirement to build a database before teach
 
 ## 15. Rollout and acceptance
 
-The [phased build plan](</Users/donovan/work/classes/music production/ableton-atlas/BUILD_PLAN.md>) expands the stages below into deliverables, dependencies, and readiness checks. Use it for execution order. Teaching can begin with a small written subset while the Atlas is built; demo production and publication remain later, separately requested work.
+The [phased build plan](</Users/donovan/work/learning/classes/music production/ableton-atlas/BUILD_PLAN.md>) expands the stages below into deliverables, dependencies, and readiness checks. Use it for execution order. Teaching can begin with a small written subset while the Atlas is built; demo production and publication remain later, separately requested work.
 
 ### Stage A: a teachable pilot
 
