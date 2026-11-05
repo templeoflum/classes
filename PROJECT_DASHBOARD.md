@@ -2,7 +2,7 @@
 
 Updated September 20, 2026 · The visual dashboard is now the local browser page, not this document.
 
-**Open:** [Build board](http://127.0.0.1:54867/) · [Map sketch](http://127.0.0.1:54867/sketch.html). Local preview only; the address works while its server is running. [Restart and check record](</Users/donovan/work/classes/music production/ableton-atlas/workbench/README.md>).
+**Open:** [Build board](http://127.0.0.1:54867/) · [Map sketch](http://127.0.0.1:54867/sketch.html). Local preview only; the address works while its server is running. [Restart and check record](</Users/donovan/work/learning/classes/music production/ableton-atlas/workbench/README.md>).
 
 **Now:** the [local sketch](http://127.0.0.1:54867/sketch.html) now expresses all six proposed views: Studio, Actions, Devices, Sound & Form, Approaches, and Lineages. Search, cross-links, 12 sample actions, and eight sample devices are available. Complete catalogs and broader historical coverage remain unwritten. A running preview server does not imply continued agent work.
 
@@ -54,10 +54,10 @@ For the first student, it starts with **“I've just opened Live.”** It respec
 
 ## Open only what you need
 
-- [Content map](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) — concepts and connections.
-- [Full specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>) — agreed behavior and boundaries.
-- [Build plan](</Users/donovan/work/classes/music production/ableton-atlas/BUILD_PLAN.md>) — phases and readiness checks.
-- [Source index](</Users/donovan/work/classes/SOURCE_INDEX.md>) — what we drew on and what was actually reviewed.
-- [Supporting work](</Users/donovan/work/classes/music production/ableton-atlas/PARALLEL_WORK.md>) — drafts and editorial integration record.
+- [Content map](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) — concepts and connections.
+- [Full specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>) — agreed behavior and boundaries.
+- [Build plan](</Users/donovan/work/learning/classes/music production/ableton-atlas/BUILD_PLAN.md>) — phases and readiness checks.
+- [Source index](</Users/donovan/work/learning/classes/SOURCE_INDEX.md>) — what we drew on and what was actually reviewed.
+- [Supporting work](</Users/donovan/work/learning/classes/music production/ableton-atlas/PARALLEL_WORK.md>) — drafts and editorial integration record.
 
 The browser board is the status home. Update its status record during real work and when the work finishes; never leave an idle task falsely marked active. This document is supporting context. Historical drafts remain evidence of proposals, not competing current plans.

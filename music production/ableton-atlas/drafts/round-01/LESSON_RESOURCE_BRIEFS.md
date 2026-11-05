@@ -2,7 +2,7 @@
 
 September 20, 2026 · Round 1 proposal · Pending coordinator review
 
-Planning only. No lesson has been observed, no real student record is included, and no media, Set, shared document, or public resource has been produced. This refines the [curriculum's first encounter](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md#5-first-three-lesson-guides>) within the [specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>) and phases 1–2 of the [build plan](</Users/donovan/work/classes/music production/ableton-atlas/BUILD_PLAN.md>). Resource candidates come from the [Atlas outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>).
+Planning only. No lesson has been observed, no real student record is included, and no media, Set, shared document, or public resource has been produced. This refines the [curriculum's first encounter](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md#5-first-three-lesson-guides>) within the [specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>) and phases 1–2 of the [build plan](</Users/donovan/work/learning/classes/music production/ableton-atlas/BUILD_PLAN.md>). Resource candidates come from the [Atlas outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>).
 
 The central recommendation is to prepare a way to hear something and a way to return to it. The teacher carries continuity through a brief note. Everything else—including recording in lesson one, Atlas use, and a downloadable project—can follow the musical conversation. Assume zero student activity between lessons.
 
@@ -62,7 +62,7 @@ All names, actions, preferences, and locations in this example are invented. The
 
 ## 3. A small prioritized resource backlog
 
-These are six authoring candidates, not six learner activities. The first two support practical teaching; the next three are **individual demo-project briefs only** selected from existing ideas. The last adds a modest connection to music beyond the software. Each can be deferred if the lesson does not need it. IDs refer to the existing [concept inventory](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md#2-the-foundational-map-42-entries>); public concept URLs do not exist yet.
+These are six authoring candidates, not six learner activities. The first two support practical teaching; the next three are **individual demo-project briefs only** selected from existing ideas. The last adds a modest connection to music beyond the software. Each can be deferred if the lesson does not need it. IDs refer to the existing [concept inventory](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md#2-the-foundational-map-42-entries>); public concept URLs do not exist yet.
 
 ### 1. “Hear Yourself”: personal setup and recovery note
 
@@ -80,7 +80,7 @@ These are six authoring candidates, not six learner activities. The first two su
 
 **Format / timing:** a few lines taught alongside saving; one original screenshot only if location remains confusing. Essential first-lesson action if keeping work is possible; a separate resource can wait.
 
-**Concepts / purpose:** `keep-projects`, [keep-fragments](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md#keep-an-idea-without-promising-it-a-future>), later `keep-portability`. The learner notices that a recognizable idea can be kept without becoming an unfinished-song obligation.
+**Concepts / purpose:** `keep-projects`, [keep-fragments](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md#keep-an-idea-without-promising-it-a-future>), later `keep-portability`. The learner notices that a recognizable idea can be kept without becoming an unfinished-song obligation.
 
 **Original material:** a teacher-owned example with a meaningful name, visible location, and short reminder of the musical moment. Use the student's own work only in the private lesson record.
 
@@ -104,7 +104,7 @@ These are six authoring candidates, not six learner activities. The first two su
 
 **Timing:** later optional depth. Produce separately only if changing one sound's response adds enough beyond resource 3; otherwise begin with its listening comparison alone.
 
-**Concepts / purpose:** primary [shape-envelopes](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md#let-a-sound-arrive-and-leave>); related `play-instruments`, `edit-notes`, `hear-monitoring`. Compare one sound with an immediate and a gradual onset. The learner notices how the arrival changes a phrase and may invite more space. Distinguish an intended sound shape from a sluggish system.
+**Concepts / purpose:** primary [shape-envelopes](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md#let-a-sound-arrive-and-leave>); related `play-instruments`, `edit-notes`, `hear-monitoring`. Compare one sound with an immediate and a gradual onset. The learner notices how the arrival changes a phrase and may invite more space. Distinguish an intended sound shape from a sluggish system.
 
 **Original material:** one sustaining sound prepared by the teacher, the shared phrase, and a fresh performance responding to the slower onset. A brief original audio comparison can stand alone.
 
@@ -116,7 +116,7 @@ These are six authoring candidates, not six learner activities. The first two su
 
 **Timing:** later optional depth, chosen for a distinct musical decision beyond playing and sound response.
 
-**Concepts / purpose:** primary [build-subtract](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md#make-room-before-adding-more>); related `build-roles`, `balance-levels`, `listen-compare`. Ask what should draw attention in an original two-part passage. The learner notices different consequences of changing presence, entrance, register, or level; none is a universally correct remedy.
+**Concepts / purpose:** primary [build-subtract](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md#make-room-before-adding-more>); related `build-roles`, `balance-levels`, `listen-compare`. Ask what should draw attention in an original two-part passage. The learner notices different consequences of changing presence, entrance, register, or level; none is a universally correct remedy.
 
 **Original material:** the small original phrase plus one original complementary part, with a preserved reference and a few clearly named alternatives. Compare one chosen intervention at a time. Include a short audio/text comparison for use without Live.
 
@@ -159,7 +159,7 @@ The teacher can establish technical answers by looking together. This is not an 
 
 ## 5. Evidence and remaining checks
 
-The local planning documents and [source index](</Users/donovan/work/classes/SOURCE_INDEX.md>) were read for this draft; the paid courses were not reread and the Piano Atlas was not newly inspected. The confirmed structural reference remains [The Piano, Mapped](https://templeoflum.github.io/piano-atlas/). The lesson design and six-resource prioritization are original proposals.
+The local planning documents and [source index](</Users/donovan/work/learning/classes/SOURCE_INDEX.md>) were read for this draft; the paid courses were not reread and the Piano Atlas was not newly inspected. The confirmed structural reference remains [The Piano, Mapped](https://templeoflum.github.io/piano-atlas/). The lesson design and six-resource prioritization are original proposals.
 
 Primary Ableton sources checked September 20, 2026 support these release precautions:
 

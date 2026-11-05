@@ -8,9 +8,9 @@ An interconnected reference for hearing, making, shaping, and understanding musi
 
 **This is an outline, not a finished course or a new interface build.** The existing local sketch remains a visual study; this pass changes the proposed content frame, not its surface. No demo Sets, audio, videos, or download packages are being made.
 
-Read alongside the [teaching specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>), [lesson plans and sample writing](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md>), and [private source review](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>). This document now leads decisions about the Atlas's content organization. The earlier 42-entry map is a starting inventory, not a ceiling or a commitment to exactly 42 pages.
+Read alongside the [teaching specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>), [lesson plans and sample writing](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md>), and [private source review](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>). This document now leads decisions about the Atlas's content organization. The earlier 42-entry map is a starting inventory, not a ceiling or a commitment to exactly 42 pages.
 
-The [source index](</Users/donovan/work/classes/SOURCE_INDEX.md>) identifies the correct reference: [The Piano, Mapped](https://templeoflum.github.io/piano-atlas/), supplied by the user and now inspected. Draft 0.1 preceded that verification. This revision changes the organizing proposal; the fourteen-area list is retained as a coverage inventory, not treated as the finished Atlas structure.
+The [source index](</Users/donovan/work/learning/classes/SOURCE_INDEX.md>) identifies the correct reference: [The Piano, Mapped](https://templeoflum.github.io/piano-atlas/), supplied by the user and now inspected. Draft 0.1 preceded that verification. This revision changes the organizing proposal; the fourteen-area list is retained as a coverage inventory, not treated as the finished Atlas structure.
 
 ## 1. What the Atlas must support
 
@@ -31,7 +31,7 @@ The outline describes places to explore, not a sequence to complete. Its numberi
 
 ### Piano Atlas: confirmed basis, original adaptation
 
-The structural review is recorded in section 11 of the [source review](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>). Neither the unrelated `pianoatlas.app` nor the chord viewer is the reference. The local checkout has not been located, but the public site and repository are verified.
+The structural review is recorded in section 11 of the [source review](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>). Neither the unrelated `pianoatlas.app` nor the chord viewer is the reference. The local checkout has not been located, but the public site and repository are verified.
 
 Our adaptation should be a map of relationships and possibilities, not simply a course broken into small pages. Establish what belongs together, what changes, which approaches differ, and why a learner might care. The shape of each territory follows those relationships. A chronological story, a signal path, a listening comparison, and an explanation of competing choices are not interchangeable content structures.
 
@@ -90,7 +90,7 @@ The learner is a professionally trained musician and piano teacher with a strong
 
 The teacher reports *Headlock* by Imogen Heap and *Lost Weekend* by Phoebe Bridgers as her aspirational references. Keep them as personal reference points and ask about particular moments in the lesson. This frame does not claim a listening analysis, infer which production details she means, or turn either track into a reconstruction assignment. Student-specific preferences belong in private teaching context, not a public learner profile by default.
 
-These two recordings and Live itself now anchor the initial Approaches/Lineages content. Map the songs’ actual credited people and materials, then documented decisions and origins; link the software’s musical history to the controls used today. Keep listening observations separate from production accounts and label our own Live study routes. Broad historical examples are not a substitute for these direct connections. See [reference research](</Users/donovan/work/classes/music production/ableton-atlas/REFERENCE_RESEARCH.md>) for evidence and open questions.
+These two recordings and Live itself now anchor the initial Approaches/Lineages content. Map the songs’ actual credited people and materials, then documented decisions and origins; link the software’s musical history to the controls used today. Keep listening observations separate from production accounts and label our own Live study routes. Broad historical examples are not a substitute for these direct connections. See [reference research](</Users/donovan/work/learning/classes/music production/ableton-atlas/REFERENCE_RESEARCH.md>) for evidence and open questions.
 
 From the first lesson, practise useful movements in Live: need an action → recall or look up the shortcut → use it → reuse it when it naturally recurs. Browser search is an early example: select the intended track, use search, choose a result, and load it. Exact keys and focus behavior belong in version-checked action entries. A small musical task provides repetition; there are no speed tests, shortcut quizzes, or between-lesson requirements. The learner spends the practice time in Live, not in a simulated keyboard drill inside the Atlas.
 
@@ -506,7 +506,7 @@ Before surface design or media production, settle:
 - Declare the supported Live/OS/edition/Pack scope and inventory every documented shortcut and device before claiming either reference is complete; author and test representative entries first.
 - Which candidate topics deserve their own entries and which belong within an existing explanation.
 - Which spatial relationships and brief labels help someone plot a path through their own curiosity without suggesting a course route.
-- Refine the drafted [first-opening/return blueprint](</Users/donovan/work/classes/music production/ableton-atlas/FIRST_OPENING_BLUEPRINT.md>): a useful map location and a teacher-held return point, with no outside activity required.
+- Refine the drafted [first-opening/return blueprint](</Users/donovan/work/learning/classes/music production/ableton-atlas/FIRST_OPENING_BLUEPRINT.md>): a useful map location and a teacher-held return point, with no outside activity required.
 - Whether the adaptation preserves exploration, context, and meaningful relationships rather than becoming a renamed syllabus.
 - Refine the representative node outlines and operation-focused example for the first slice. A sourced musical-context example remains a broader-collection goal; it need not block the first-opening prototype or be published unfinished.
 

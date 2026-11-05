@@ -2,17 +2,17 @@
 
 September 20, 2026 · Revision 0.3 · Instructor research, not a student handout
 
-For the current cross-collection source map, see the [source index](</Users/donovan/work/classes/SOURCE_INDEX.md>). Sections 1–9 preserve the coursework rewalk; section 10 adds DJ Foundations; section 11 records the subsequently confirmed Piano Atlas reference and the correction to the outline.
+For the current cross-collection source map, see the [source index](</Users/donovan/work/learning/classes/SOURCE_INDEX.md>). Sections 1–9 preserve the coursework rewalk; section 10 adds DJ Foundations; section 11 records the subsequently confirmed Piano Atlas reference and the correction to the outline.
 
 **Subsequent design clarification (draft 0.4):** the user confirmed 30-minute lessons and teacher-written notes during the lesson. Student reading, additions, Atlas exploration, and vocabulary development are optional; the teaching plan assumes zero between-lesson use. The source findings below are unchanged. References to draft 0.3's student notebook/tracker describe that earlier proposal; the current specification replaces it with a teacher-maintained lesson record and defers tracking features.
 
 This review asks what helps us build original, musically grounded private lessons and an open exploration Atlas. Source observations and our design judgments are kept separate. A useful pattern is not evidence of universally superior teaching, and access to a course is not permission to redistribute it.
 
-Companions: [specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>) · [curriculum](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md>) · [file-by-file coverage catalog](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_CATALOG.md>).
+Companions: [specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>) · [curriculum](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md>) · [file-by-file coverage catalog](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_CATALOG.md>).
 
 ## 1. What was actually reviewed
 
-The previous draft missed the main source location. Its statements that private Synthesis and Encanti teaching material had not been found were wrong. The substantive local collection is in [coursework](</Users/donovan/work/portfolio/coursework>).
+The previous draft missed the main source location. Its statements that private Synthesis and Encanti teaching material had not been found were wrong. The substantive local collection is in [coursework](</Users/donovan/work/studio-operations/portfolio/coursework>).
 
 This pass read all prose in the **86 loose Markdown, HTML, and PDF documents** cataloged there: 32 Markdown files, 46 saved lesson pages, and eight PDFs totaling 28 pages. This is a file count, not 86 unique lessons. It includes export metadata, overlapping versions, AI summaries, and three license copies. The saved HTML count includes one mislabeled duplicate lesson body.
 

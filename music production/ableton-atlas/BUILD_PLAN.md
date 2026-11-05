@@ -4,9 +4,9 @@ Draft 0.4 · September 20, 2026 · Revised frame proposed; local surface unchang
 
 Build a small, coherent Atlas first, use it alongside real teaching, then expand the resources it proves useful to have. The aim is not to finish an encyclopedia before the first lesson.
 
-This plan sequences the [content outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) and [teaching specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>). The [curriculum](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md>) supplies existing lesson sketches and sample writing; the [source index](</Users/donovan/work/classes/SOURCE_INDEX.md>) records the research basis and its limits. These are build phases, not student levels or a lesson schedule. Dates and estimates can follow once the first release scope and available working time are known.
+This plan sequences the [content outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) and [teaching specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>). The [curriculum](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md>) supplies existing lesson sketches and sample writing; the [source index](</Users/donovan/work/learning/classes/SOURCE_INDEX.md>) records the research basis and its limits. These are build phases, not student levels or a lesson schedule. Dates and estimates can follow once the first release scope and available working time are known.
 
-Current execution: the [outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) now proposes Studio, Actions, Devices, Sound & Form, Approaches, and Lineages as distinct views. Complete shortcut/device coverage and the first learner's software-fluency emphasis are recorded. Next, test the boundaries with representative cross-view anchors before another surface pass. The three earlier parallel drafts remain source material, not active work. Student-ready content, demos, and publication remain uncompleted work.
+Current execution: the [outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) now proposes Studio, Actions, Devices, Sound & Form, Approaches, and Lineages as distinct views. Complete shortcut/device coverage and the first learner's software-fluency emphasis are recorded. Next, test the boundaries with representative cross-view anchors before another surface pass. The three earlier parallel drafts remain source material, not active work. Student-ready content, demos, and publication remain uncompleted work.
 
 ## Starting point
 
@@ -17,7 +17,7 @@ Already available:
 - A revised six-view frame, a fourteen-area coverage inventory, 42 existing concept IDs, and an earlier fifteen-entry authoring pool. Complete shortcut/device catalogs are now explicit additional requirements, not completed assets.
 - Thirty-minute lesson sketches, five original sample entries, and candidate demo/resource ideas.
 
-Still drafts, not finished teaching assets: territory structure, individual entries, operational instructions, media, and demo projects. A [local interaction slice](</Users/donovan/work/classes/music production/ableton-atlas/workbench/README.md>) now exists: three connected entry situations, a recovery branch, temporary return markers, and fictional teacher notes. It is not a complete Atlas, student account system, or demo library. The missing local Piano Atlas checkout does not block progress.
+Still drafts, not finished teaching assets: territory structure, individual entries, operational instructions, media, and demo projects. A [local interaction slice](</Users/donovan/work/learning/classes/music production/ableton-atlas/workbench/README.md>) now exists: three connected entry situations, a recovery branch, temporary return markers, and fictional teacher notes. It is not a complete Atlas, student account system, or demo library. The missing local Piano Atlas checkout does not block progress.
 
 ## Phase map
 

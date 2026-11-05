@@ -3,7 +3,7 @@ import AppKit
 import Foundation
 
 // Only trims/crops an actual screen recording. No synthetic interface frames.
-let root = URL(fileURLWithPath: "/Users/donovan/work/classes/music production/ableton-atlas/")
+let root = URL(fileURLWithPath: "/Users/donovan/work/learning/classes/music production/ableton-atlas/")
 let asset = AVURLAsset(url: root.appendingPathComponent("capture-tests/arm-track-source.mov"))
 let mode = CommandLine.arguments.dropFirst().first ?? "inspect"
 if mode == "inspect" {

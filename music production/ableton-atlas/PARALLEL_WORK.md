@@ -2,11 +2,11 @@
 
 September 20, 2026 · Coordinator-owned brief and integration record
 
-The user authorized three supporting agents while discussion and editorial direction remain in the main task. This round supports phases 1–2 of the [build plan](</Users/donovan/work/classes/music production/ableton-atlas/BUILD_PLAN.md>); it does not authorize application development, demo production, publishing, or student sharing.
+The user authorized three supporting agents while discussion and editorial direction remain in the main task. This round supports phases 1–2 of the [build plan](</Users/donovan/work/learning/classes/music production/ableton-atlas/BUILD_PLAN.md>); it does not authorize application development, demo production, publishing, or student sharing.
 
 ## Shared basis
 
-Read the current [outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>), [specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>), and relevant sections of the [curriculum](</Users/donovan/work/classes/music production/ableton-atlas/CURRICULUM.md>). The [source index](</Users/donovan/work/classes/SOURCE_INDEX.md>) and linked research records distinguish evidence from our proposals and reviewed material from unreviewed material.
+Read the current [outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>), [specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>), and relevant sections of the [curriculum](</Users/donovan/work/learning/classes/music production/ableton-atlas/CURRICULUM.md>). The [source index](</Users/donovan/work/learning/classes/SOURCE_INDEX.md>) and linked research records distinguish evidence from our proposals and reviewed material from unreviewed material.
 
 The correct structural reference is [The Piano, Mapped](https://templeoflum.github.io/piano-atlas/), with source at [templeoflum/piano-atlas](https://github.com/templeoflum/piano-atlas). The chord viewer and pianoatlas.app are different projects. A missing local checkout is not an unresolved reference.
 
@@ -49,15 +49,15 @@ A completed agent draft is not an approved specification change. First reconcile
 
 ## Round status
 
-All three initial assignments are complete. The coordinator reviewed their drafts and used the accepted findings below in specification 0.7, outline 0.3, curriculum 0.5, build plan 0.2, and the [first-opening/return blueprint](</Users/donovan/work/classes/music production/ableton-atlas/FIRST_OPENING_BLUEPRINT.md>). The [project dashboard](</Users/donovan/work/classes/PROJECT_DASHBOARD.md>) is the current status home. Supporting agents are not continuing background work after completion.
+All three initial assignments are complete. The coordinator reviewed their drafts and used the accepted findings below in specification 0.7, outline 0.3, curriculum 0.5, build plan 0.2, and the [first-opening/return blueprint](</Users/donovan/work/learning/classes/music production/ableton-atlas/FIRST_OPENING_BLUEPRINT.md>). The [project dashboard](</Users/donovan/work/learning/classes/PROJECT_DASHBOARD.md>) is the current status home. Supporting agents are not continuing background work after completion.
 
 ### Editorial integration — September 20
 
 | Draft | Adopted into current planning | Still a proposal or future check |
 | --- | --- | --- |
-| [Source coverage audit](</Users/donovan/work/classes/music production/ableton-atlas/drafts/round-01/SOURCE_COVERAGE_AUDIT.md>) | Clearer provisional C/F names; playback home A; sound-layer/musical-role and operating-level/balance distinctions; removal of mandatory processing order; explicit phrase/context gaps | Six territories are not finalized; new phrase/context entries and setup-specific checks remain unwritten or unverified |
-| [First collection](</Users/donovan/work/classes/music production/ableton-atlas/drafts/round-01/FIRST_COLLECTION.md>) | Candidate pool and original samples retained; purposeful connections and brief encounter layer with optional reference depth | Nine-plus-context is not the first lesson or release quota; contextual pair is a research lead, not an endorsed listening recommendation or ready page; samples still need technical/learner review |
-| [Lesson/resource briefs](</Users/donovan/work/classes/music production/ableton-atlas/drafts/round-01/LESSON_RESOURCE_BRIEFS.md>) | Working sound or truthful unresolved check; small teacher note; zero-preparation return; six resource briefs retained without production | Actual equipment, note delivery, all media/demo production, compatibility testing, and listening reference selection |
+| [Source coverage audit](</Users/donovan/work/learning/classes/music production/ableton-atlas/drafts/round-01/SOURCE_COVERAGE_AUDIT.md>) | Clearer provisional C/F names; playback home A; sound-layer/musical-role and operating-level/balance distinctions; removal of mandatory processing order; explicit phrase/context gaps | Six territories are not finalized; new phrase/context entries and setup-specific checks remain unwritten or unverified |
+| [First collection](</Users/donovan/work/learning/classes/music production/ableton-atlas/drafts/round-01/FIRST_COLLECTION.md>) | Candidate pool and original samples retained; purposeful connections and brief encounter layer with optional reference depth | Nine-plus-context is not the first lesson or release quota; contextual pair is a research lead, not an endorsed listening recommendation or ready page; samples still need technical/learner review |
+| [Lesson/resource briefs](</Users/donovan/work/learning/classes/music production/ableton-atlas/drafts/round-01/LESSON_RESOURCE_BRIEFS.md>) | Working sound or truthful unresolved check; small teacher note; zero-preparation return; six resource briefs retained without production | Actual equipment, note delivery, all media/demo production, compatibility testing, and listening reference selection |
 
 The latest user direction governs all three: map-first, low reading overhead, self-chosen paths, meaningful deliberate history, and entering alongside Live's first opening. Browsing history for navigation is temporary by default, not a persistent activity record.
 

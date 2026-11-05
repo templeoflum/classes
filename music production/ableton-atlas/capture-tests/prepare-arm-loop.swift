@@ -3,7 +3,7 @@ import AppKit
 import Foundation
 
 // Trim a real on/off capture; do not synthesize/reverse a button interaction.
-let root = URL(fileURLWithPath: "/Users/donovan/work/classes/music production/ableton-atlas/")
+let root = URL(fileURLWithPath: "/Users/donovan/work/learning/classes/music production/ableton-atlas/")
 let asset = AVURLAsset(url: root.appendingPathComponent("capture-tests/arm-toggle-source.mov"))
 let generator = AVAssetImageGenerator(asset: asset)
 generator.appliesPreferredTrackTransform = true

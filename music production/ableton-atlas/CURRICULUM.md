@@ -2,9 +2,9 @@
 
 Draft 0.5 · September 20, 2026 · Editorial boundaries and first-opening use refined
 
-Read with the [specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>). This is an original teaching design informed by the [source review](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>), not a repackaged syllabus. Encounters and examples below are proposals; demo media and teaching Sets have not yet been made or tested.
+Read with the [specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>). This is an original teaching design informed by the [source review](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>), not a repackaged syllabus. Encounters and examples below are proposals; demo media and teaching Sets have not yet been made or tested.
 
-The [Atlas content outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) leads the broader subject organization, including musical ideas and listening/discovery. This document retains the 42 stable concept IDs, sample writing, and 30-minute teaching encounters, with playback now grouped under Live orientation. Use the outline for their provisional territory homes, including C, “Musical ideas and form,” and F, “Musical worlds and connections.” These are not six required destinations or a lesson sequence. Neither a website nor demo-project production is the current phase.
+The [Atlas content outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) leads the broader subject organization, including musical ideas and listening/discovery. This document retains the 42 stable concept IDs, sample writing, and 30-minute teaching encounters, with playback now grouped under Live orientation. Use the outline for their provisional territory homes, including C, “Musical ideas and form,” and F, “Musical worlds and connections.” These are not six required destinations or a lesson sequence. Neither a website nor demo-project production is the current phase.
 
 ## 1. The musical through-line
 

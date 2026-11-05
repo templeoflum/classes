@@ -4,25 +4,25 @@ Last checked: September 21, 2026 · Private planning/research, not student mater
 
 This is the starting point for finding source material across the teaching project. It distinguishes a located file from reviewed content and a verified reference from a candidate. It does not grant permission to redistribute anything.
 
-Detailed companions: [coursework file catalog](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_CATALOG.md>) · [research findings and adaptations](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) · [current Atlas outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>).
+Detailed companions: [coursework file catalog](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_CATALOG.md>) · [research findings and adaptations](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) · [current Atlas outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>).
 
 ## 1. Quick source map
 
-Latest addition: [Session / Arrangement research and blueprint](</Users/donovan/work/classes/music production/ableton-atlas/SESSION_ARRANGEMENT_RESEARCH.md>) connects current operations to the musicians' working needs and Live's development. Primary interviews, a 2004 announcement, and relevant current manual sections were read; no Live test or interface change is claimed. Operator's design history is an adjacent research lead.
+Latest addition: [Session / Arrangement research and blueprint](</Users/donovan/work/learning/classes/music production/ableton-atlas/SESSION_ARRANGEMENT_RESEARCH.md>) connects current operations to the musicians' working needs and Live's development. Primary interviews, a 2004 announcement, and relevant current manual sections were read; no Live test or interface change is claimed. Operator's design history is an adjacent research lead.
 
-[Reference recordings and Live’s origins](</Users/donovan/work/classes/music production/ableton-atlas/REFERENCE_RESEARCH.md>) records the sources behind the current Approaches/Lineages prototype: Headlock, Lost Weekend, and Ableton. Those views are under reconsideration following user feedback, not accepted finished treatments. Credits and selected written accounts were inspected; a listening breakdown, original-session review, and finished lesson assets remain outstanding. Earlier history research below is retained but no longer leads the prototype.
+[Reference recordings and Live’s origins](</Users/donovan/work/learning/classes/music production/ableton-atlas/REFERENCE_RESEARCH.md>) records the sources behind the current Approaches/Lineages prototype: Headlock, Lost Weekend, and Ableton. Those views are under reconsideration following user feedback, not accepted finished treatments. Credits and selected written accounts were inspected; a listening breakdown, original-session review, and finished lesson assets remain outstanding. Earlier history research below is retained but no longer leads the prototype.
 
 | Source | Verified location | Coverage / status | Main use |
 | --- | --- | --- | --- |
 | Piano Atlas: The Piano, Mapped | [Live site](https://templeoflum.github.io/piano-atlas/) · [Repository](https://github.com/templeoflum/piano-atlas) | Exact URL supplied by the user; five territories inspected; embedded entry data and flag handling read | Primary structural reference for the Atlas; see section 2 |
 | DJ Foundations | [Course folder](</Users/donovan/work/0000000/My Classes/DJ Foundations>) | Resource-page content, five Markdown documents, and four PDFs reviewed in the current outline pass | Vocabulary, listening/discovery, focused teaching with broader optional resources |
-| Synthesis Catalyst | [Saved pages](</Users/donovan/work/portfolio/coursework/Synthesis audio/Catalyst/pages>) | 46 HTML bodies and 11 Markdown exports read; overlaps and variants identified; videos not watched | Focus, idea development, arrangement, refinement, feedback |
-| Other Synthesis resources | [Synthesis folder](</Users/donovan/work/portfolio/coursework/Synthesis audio>) | Five loose PDFs / 13 pages reviewed; supplied sounds and template Sets not auditioned | Temporary scaffolds, intent prompts, asset boundaries |
-| EMA Freshman | [Freshman folder](</Users/donovan/work/portfolio/coursework/EMA/freshman>) | Four packets, shared notes, AI summary, export metadata read; four videos unwatched | Phrasing, sound construction, development, contextual mixing |
-| EMA Thesis Paradoxos | [Thesis folder](</Users/donovan/work/portfolio/coursework/EMA/thesis paradoxos>) | Eight packets, shared notes, AI summary, metadata, cooperation reading; projects not auditioned | Interdependent musical decisions, feedback, versions, collaboration |
-| EMA Thesis Vox Humana | [Vox Humana folder](</Users/donovan/work/portfolio/coursework/EMA/thesis vox humana>) | Week 1 plus eight-week overview and archived rack README read; four videos and six archived publications not reviewed | Creative direction, reflection, curation, future depth |
-| EMA Refractalizer | [Three-week course](</Users/donovan/work/portfolio/coursework/EMA/refractalizer course>) | Three packets read, including two PDFs / 10 pages; tools and linked demonstrations not tested | Focused sound-transformation classes |
-| EMA workshops | [Workshop folder](</Users/donovan/work/portfolio/coursework/EMA/workshops>) | Undulae prose and selected figures read; four workshop videos unwatched | Mechanisms connected to listening and experimentation |
+| Synthesis Catalyst | [Saved pages](</Users/donovan/work/studio-operations/portfolio/coursework/Synthesis audio/Catalyst/pages>) | 46 HTML bodies and 11 Markdown exports read; overlaps and variants identified; videos not watched | Focus, idea development, arrangement, refinement, feedback |
+| Other Synthesis resources | [Synthesis folder](</Users/donovan/work/studio-operations/portfolio/coursework/Synthesis audio>) | Five loose PDFs / 13 pages reviewed; supplied sounds and template Sets not auditioned | Temporary scaffolds, intent prompts, asset boundaries |
+| EMA Freshman | [Freshman folder](</Users/donovan/work/studio-operations/portfolio/coursework/EMA/freshman>) | Four packets, shared notes, AI summary, export metadata read; four videos unwatched | Phrasing, sound construction, development, contextual mixing |
+| EMA Thesis Paradoxos | [Thesis folder](</Users/donovan/work/studio-operations/portfolio/coursework/EMA/thesis paradoxos>) | Eight packets, shared notes, AI summary, metadata, cooperation reading; projects not auditioned | Interdependent musical decisions, feedback, versions, collaboration |
+| EMA Thesis Vox Humana | [Vox Humana folder](</Users/donovan/work/studio-operations/portfolio/coursework/EMA/thesis vox humana>) | Week 1 plus eight-week overview and archived rack README read; four videos and six archived publications not reviewed | Creative direction, reflection, curation, future depth |
+| EMA Refractalizer | [Three-week course](</Users/donovan/work/studio-operations/portfolio/coursework/EMA/refractalizer course>) | Three packets read, including two PDFs / 10 pages; tools and linked demonstrations not tested | Focused sound-transformation classes |
+| EMA workshops | [Workshop folder](</Users/donovan/work/studio-operations/portfolio/coursework/EMA/workshops>) | Undulae prose and selected figures read; four workshop videos unwatched | Mechanisms connected to listening and experimentation |
 | Slam Ableton course | [Downloads](</Users/donovan/Downloads>) | Earlier review: 34 PDFs / 582 pages; not reread in the latest outline pass | Broad Live operations and practical foundations |
 | User's EMA production work | [Music project directory](</Users/donovan/Music/tunes/production/EMA>) | Earlier structural inspection of 19 non-backup Sets only; not a listening review | Organizational examples, versions, dependency awareness |
 
@@ -32,7 +32,7 @@ The coursework catalog assigns S001–S086 to 86 loose documents: 32 Markdown, 4
 
 ### Fresh direct adaptation · September 21, 2026
 
-The user explicitly requested starting over from the Piano Atlas source, gutting its content and reworking it for Ableton Live. [Fresh draft record](</Users/donovan/work/classes/music production/ableton-atlas/live-atlas/README.md>). The same verified source blob was retrieved from GitHub. This new draft intentionally adapts its shell, styling, territory/inspector interactions, and local flags; earlier statements that no source code/design was copied apply only to the earlier independent prototypes. The old workbench files remain unchanged. The subject is now strictly Ableton Live, not general production or a song-led framework.
+The user explicitly requested starting over from the Piano Atlas source, gutting its content and reworking it for Ableton Live. [Fresh draft record](</Users/donovan/work/learning/classes/music production/ableton-atlas/live-atlas/README.md>). The same verified source blob was retrieved from GitHub. This new draft intentionally adapts its shell, styling, territory/inspector interactions, and local flags; earlier statements that no source code/design was copied apply only to the earlier independent prototypes. The old workbench files remain unchanged. The subject is now strictly Ableton Live, not general production or a song-led framework.
 
 Current manual families inspected for this draft: instrument, audio-effect, MIDI-effect and Rack references; MIDI editing, automation, file management, and MIDI mapping. The existing verified keyboard and Live-concept references also inform it. Entries are representative, not an exhaustive inventory. Interface checks do not imply a hands-on Live test.
 
@@ -59,7 +59,7 @@ The user supplied the exact URL on September 20, 2026. The intended reference is
 - [Source file](https://github.com/templeoflum/piano-atlas/blob/main/index.html); inspected blob `d27c4f7c4e5cc50623020382c72c8f042024c090`. The repository currently contains this file and a README. This records the inspected source version, not a separately verified deployment commit.
 - **Local checkout:** not located by the work-folder searches. That is a separate gap, not uncertainty about which public reference the user means. No repository was cloned or moved.
 
-Coverage: opened the overview, all five territories, representative node details, and the flags view; read all embedded territory/entry datasets, including relationships, criticism fields, and improvisation material. Read the flag persistence and rendering code. This was a content/structure review, not an exhaustive interface test, audio audition, or independent verification of the historical and theoretical claims. Findings and our adaptation are in section 11 of the [source review](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>).
+Coverage: opened the overview, all five territories, representative node details, and the flags view; read all embedded territory/entry datasets, including relationships, criticism fields, and improvisation material. Read the flag persistence and rendering code. This was a content/structure review, not an exhaustive interface test, audio audition, or independent verification of the historical and theoretical claims. Findings and our adaptation are in section 11 of the [source review](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>).
 
 **Rejected references:** `pianoatlas.app` is unrelated and was incorrectly assumed to be the intended site. The [chord viewer](</Users/donovan/work/0000000/chord-viewer>) is also a separate project, even though the correct Atlas mentions it. Neither replaces this reference. Earlier drafting preceded a verified identification; outline revision 0.2 corrects that basis rather than retroactively claiming the earlier draft was grounded in it.
 
@@ -91,7 +91,7 @@ Use the structure and the user's teaching intentions, not an unverified claim th
 
 ## 4. Where to find the detailed coursework
 
-- **EMA Freshman:** S001–S007 in the [catalog](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_CATALOG.md>).
+- **EMA Freshman:** S001–S007 in the [catalog](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_CATALOG.md>).
 - **EMA Refractalizer:** S008–S010.
 - **EMA Thesis Paradoxos:** S011–S022. Numeric packet filename suffixes do not reliably represent week order; the catalog resolves this.
 - **EMA Vox Humana:** S023 plus the archived rack README. The archive bibliography is listed separately as unread.
@@ -106,7 +106,7 @@ The catalog also records all 32 ZIP inventories, duplicate exports, the unread R
 
 ## 5. Slam entry points
 
-Use section 5 of the [source review](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) for direct file references and the lesson-by-lesson reading record. The earlier pass covered:
+Use section 5 of the [source review](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>) for direct file references and the lesson-by-lesson reading record. The earlier pass covered:
 
 - 20 teaching handouts / 567 pages: initial Live use, envelopes, navigation/groove, recording, warping, performed form, editing/export, file care, racks, effects, synthesis, sampling, controllers, performance, mixing, and mastering.
 - 13 weekly assignments plus one Level 2 project brief / 15 pages.
@@ -115,7 +115,7 @@ These are historical Live 9-era materials. The original PDF locations remain in 
 
 ## 6. Keep source evidence separate from our work
 
-Our outline, specification, lesson plans, sample entries, and proposed demo list are **outputs**, not independent evidence about a source course. They live in [the Atlas project](</Users/donovan/work/classes/music production/ableton-atlas>).
+Our outline, specification, lesson plans, sample entries, and proposed demo list are **outputs**, not independent evidence about a source course. They live in [the Atlas project](</Users/donovan/work/learning/classes/music production/ableton-atlas>).
 
 When adding a source, record its exact location, kind/version, what was inspected, known duplicates or conflicts, intended use, and unresolved permissions or factual questions. Use precise statuses: located, inventoried only, text read, visually inspected, structurally inspected, auditioned/tested, or unresolved. Never use “reviewed” to imply a video was watched because its AI summary was read.
 

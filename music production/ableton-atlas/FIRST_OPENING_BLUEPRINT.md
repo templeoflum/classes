@@ -4,7 +4,7 @@ Draft 0.2 · September 20, 2026 · Blueprint with an initial local interaction s
 
 Revision note: the user rejected the first task-oriented presentation. The current local sketch explores gesture/instrument, the life of a note, and musical repetition instead. The landmark labels below are historical proposals, not the current surface. Behavioral requirements—starting beside Live, quiet recovery, teacher-held return points, and no expected preparation—remain in force. See the workbench README for the current revision and checks.
 
-[Project dashboard](</Users/donovan/work/classes/PROJECT_DASHBOARD.md>) · [Content outline](</Users/donovan/work/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) · [Specification](</Users/donovan/work/classes/music production/ableton-atlas/SPEC.md>)
+[Project dashboard](</Users/donovan/work/learning/classes/PROJECT_DASHBOARD.md>) · [Content outline](</Users/donovan/work/learning/classes/music production/ableton-atlas/ATLAS_OUTLINE.md>) · [Specification](</Users/donovan/work/learning/classes/music production/ableton-atlas/SPEC.md>)
 
 ## The experience we are aiming for
 
@@ -108,10 +108,10 @@ Before the slice is called ready, test these scenarios:
 6. A later lesson resumes with no student browsing, practice, flags, or downloads.
 7. Missing saved context has an honest fallback; no claim of automatic Live state or shared storage.
 
-An initial [local sketch and check record](</Users/donovan/work/classes/music production/ableton-atlas/workbench/README.md>) now cover basic navigation, recovery, a fictional zero-preparation return, deliberate temporary markers, keyboard activation, and narrow-screen behavior. These are interface checks, **not evidence of lesson effectiveness or complete acceptance**. Technical operations, clarity with a real learner, real note handling, and production persistence remain untested.
+An initial [local sketch and check record](</Users/donovan/work/learning/classes/music production/ableton-atlas/workbench/README.md>) now cover basic navigation, recovery, a fictional zero-preparation return, deliberate temporary markers, keyboard activation, and narrow-screen behavior. These are interface checks, **not evidence of lesson effectiveness or complete acceptance**. Technical operations, clarity with a real learner, real note handling, and production persistence remain untested.
 
 ## Basis and decisions still open
 
-This is an original synthesis of the reviewed [Piano Atlas principles and course research](</Users/donovan/work/classes/music production/ableton-atlas/SOURCE_REVIEW.md>), the [coverage audit](</Users/donovan/work/classes/music production/ableton-atlas/drafts/round-01/SOURCE_COVERAGE_AUDIT.md>), [first-collection proposals](</Users/donovan/work/classes/music production/ableton-atlas/drafts/round-01/FIRST_COLLECTION.md>), [lesson/resource brief](</Users/donovan/work/classes/music production/ableton-atlas/drafts/round-01/LESSON_RESOURCE_BRIEFS.md>), and the user's map-first/first-opening direction. No new source-media review, technical check, or user test occurred during drafting.
+This is an original synthesis of the reviewed [Piano Atlas principles and course research](</Users/donovan/work/learning/classes/music production/ableton-atlas/SOURCE_REVIEW.md>), the [coverage audit](</Users/donovan/work/learning/classes/music production/ableton-atlas/drafts/round-01/SOURCE_COVERAGE_AUDIT.md>), [first-collection proposals](</Users/donovan/work/learning/classes/music production/ableton-atlas/drafts/round-01/FIRST_COLLECTION.md>), [lesson/resource brief](</Users/donovan/work/learning/classes/music production/ableton-atlas/drafts/round-01/LESSON_RESOURCE_BRIEFS.md>), and the user's map-first/first-opening direction. No new source-media review, technical check, or user test occurred during drafting.
 
 Open when needed: exact visual geometry, final territory names, learner's full Live setup, note-sharing medium, durable personal-map storage, and the contextual listening example. None requires another broad research pass before sketching the small neighborhood. Demo projects remain briefs only; publication and actual sharing require separate approval.
